@@ -1,0 +1,76 @@
+/* ==========================
+   ESTILO GENERAL
+========================== */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ==========================
+   CUADRO PRINCIPAL
+========================== */
+
+.contenedor {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00000030;
+  margin-top: 40px;
+}
+
+h2, h1 {
+  margin-bottom: 20px;
+}
+
+/* ==========================
+   INPUTS DEL LOGIN
+========================== */
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+/* ==========================
+   BOTONES
+========================== */
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #0044cc;
+}
+
+/* ==========================
+   VIDEO FUERA DEL CUADRO
+========================== */
+
+.video-container {
+  margin-top: 30px;
+}
+
+video {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000040;
+}
